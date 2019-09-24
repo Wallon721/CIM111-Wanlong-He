@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700|Kanit:600|Raleway:700|Roboto+Slab:700&display=swap');
+      /*  font-family: 'Raleway', sans-serif;
+          font-family: 'Roboto Slab', serif;
+          font-family: 'Josefin Sans', sans-serif;
+          font-family: 'Kanit', sans-serif; */
+      body{
+        background: linear-gradient(to top left, rgba(242, 141, 159, 95),rgba(0, 156, 255, 100));
+      }
+
+      h1{
+        color: black;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      h3{
+        font-family: 'Raleway', sans-serif;
+        font-size: 25px;
+        text-align:left;
+      }
+
+      h5{
+        text-align: left;
+        font-family: 'Raleway', sans-serif;
+      }
+
+      li{
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+      }
+
+      th{
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px
+      }
+
+      tr{
+        font-family: 'Raleway', sans-serif;
+        font-weight: lighter;
+      }
+
+      pre{
+        text-align:center;
+        color: black;
+        text-shadow: 2px 2px orange
+
+      }
+
+      a{
+        color:pink;
+        text-decoration: none;
+        /* for text-decoration, than main 2 useage are none or underline */
+      }
+
+      a:visited{
+        color: purple;
+      }
+
+      a:hover{
+        background-color: pink;
+        text-decoration: underline;
+      }
+
+      #underline{
+        text-decoration: underline;
+      }
+
+      #darkblue{
+        color:#2B576F;
+      }
+
+      #darkerblue{
+        color:#224457
+      }
+
+      #ligherblue{
+        color:#31627D
+      }
+
+      #border{
+        border: 5px solid black;
+        width: 160px;
+        height: 35px;
+      }
+
+      #shadow{
+        text-shadow:5px 5px #FF94BD;
+        letter-spacing: 25px
+      }
+
+      .h5size{
+        font-size: 10 px
+      }
+
+      img.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }

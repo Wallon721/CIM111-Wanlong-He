@@ -1,0 +1,65 @@
+/* TEMP:  */
+      @import url('https://fonts.googleapis.com/css?family=Rajdhani|Viga&display=swap');
+
+      body {
+      background-color: #C5BFFF
+      }</style>
+      <style>
+      section{
+          background-color: white;}
+
+          h1{
+            font-family: 'viga', sans-serif;
+            font-weight: bold;
+            font-size: 150px;
+          }
+
+          h3{
+            color: #ffffff;
+          }
+
+          p em{
+            font-family: 'Rajdhani' ,sans-serif;
+            color: yellow;
+            text-decoration: underline;
+            font-weight: bold;
+          }
+
+          li{
+            font-size: 30px;
+            list-style: circle;
+          }
+
+          ul li{
+            list-style: none;
+          }
+
+          #centerName{
+            text-align: center;
+            /* centers whatever paragraph */
+            /* you can only use id for one time, this case #centername is the only id we have */
+          }
+
+          .bolder{
+            font-weight: bolder;
+            font-size: 30px;
+          }
+          /* you can use classes as many time as you want*/
+
+          a{
+            color: green;
+            text-decoration: none;
+            /* for text-decoration, than main 2 useage are none or underline */
+          }
+
+          a:visited{
+            color: blue;
+          }
+
+          a:hover{
+            background-color: pink;
+            text-decoration: line-through;
+          }
+
+          import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+          /* use this code to use the family fonts:font-family: 'Rajdhani', sans-serif; */
