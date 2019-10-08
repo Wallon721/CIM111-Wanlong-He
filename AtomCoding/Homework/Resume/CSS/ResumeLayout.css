@@ -20,9 +20,10 @@
         text-align:left;
       }
 
-      h5{
+      span{
         text-align: left;
         font-family: 'Raleway', sans-serif;
+        font-size: 13.28px
       }
 
       li{
@@ -62,6 +63,7 @@
         text-decoration: underline;
       }
 
+
       #underline{
         text-decoration: underline;
       }
@@ -71,11 +73,11 @@
       }
 
       #darkerblue{
-        color:#224457
+        color:#224457;
       }
 
-      #ligherblue{
-        color:#31627D
+      #lighterblue{
+        color:#31627D;
       }
 
       #border{
@@ -86,11 +88,15 @@
 
       #shadow{
         text-shadow:5px 5px #FF94BD;
-        letter-spacing: 25px
+        letter-spacing: 25px;
+      }
+
+      .text-lighter{
+        font-weight:bold;
       }
 
       .h5size{
-        font-size: 10 px
+        font-size:10 px;
       }
 
       img.center {
