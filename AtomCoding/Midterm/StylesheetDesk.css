@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display|Fredericka+the+Great|Libre+Barcode+128+Text|Patua+One|Press+Start+2P&display=swap');
+/* font-family: 'Press Start 2P', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Libre Barcode 128 Text', cursive;
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Patua One', cursive;*/
+
+
+header{
+    background-color: #0889A6;
+    width: 960px;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+    border-width: 10px 10px 10px 10px;
+    border-color: #F0E400;
+    border-style: outset;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+h1{
+  text-align: center;
+  color: #F0E400;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow:5px 5px blue;
+}
+
+nav{
+  background-color: #5FC2D9;
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+  border-style:outset;
+  border-color: #F0E400;
+}
+
+nav ul{
+
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+nav ul li a {
+  color: #F2EA49;
+  text-decoration: none;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 8px;
+}
+
+nav ul li a:hover{
+  background-color: yellow;
+  color: blue;
+}
+
+nav ul li:hover{
+  background-color: blue;
+}
+
+main{
+  background-color: #008C5E;
+  width: 960px;
+  height: 1800px;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-width: 10px; /* add border on all sides */
+  border-style: outset;
+  border-color: yellow;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Home{
+  width: 800px;
+  height: 320px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 200px;
+  grid-template-columns: 190px 350px 250px;
+  grid-column-gap: 20px;
+  padding-bottom: 20px;
+}
+
+#Home h2{
+  color: #F2EA49;
+  text-decoration: none;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+  font-weight: bolder;
+  font-size-adjust: auto;
+  line-height: 100px;
+  text-shadow:5px 5px blue;
+
+}
+
+#Home p{
+  margin: 0 auto;
+  width: 223px;
+  height: 320px;
+  display: block;
+  color: #E3D800;
+  font-family: 'Patua One', cursive;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+
+#Home img{
+  width:223px;
+  height: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+#AboutMe{
+  width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 270px;
+  grid-template-columns: 270px 500px;
+  grid-column-gap: 80px;
+}
+
+#AboutMe h2{
+  color: #F2EA49;
+  text-decoration: none;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+  font-weight: bolder;
+  font-size-adjust: auto;
+  line-height: 100px;
+  text-align: center;
+  text-shadow:5px 5px blue;
+
+}
+
+
+#AboutMe p{
+  color: #E3D800;
+  font-family: 'Patua One', cursive;
+}
+
+#Ikea{
+  margin: 0 auto;
+  display: block;
+  align-items: center;
+}
+
+#PewB{
+  width: 350px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+#Friends{
+  width: 800px;
+  height: 300px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 300px 200px;
+  grid-template-columns: 220px 200px 200px 200px;
+  grid-column-gap: 20px;
+  padding-top: 60px;
+}
+
+#Friends h1{
+  color: #F2EA49;
+  text-decoration: none;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  line-height: 100px;
+  text-align: Left;
+}
+
+#Friends p{
+  color: #E3D800;
+  font-family: 'Patua One', cursive;
+  text-align: center;
+  width: 200px;
+}
+
+#Friends img{
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+#Fam{
+  width: 800px;
+  height: 300px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 300px 200px;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-column-gap: 20px;
+  padding-top: 380px;
+}
+
+#Fam img{
+  width: 270px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+
+}
+
+footer{
+  background-color: #4B3CD2;
+  width: 960px;
+  height: auto;
+  padding: 20px 20px 20px 20px;
+  border-width: 10px 10px 10px 10px;
+  border-color: #F0E400;
+  border-style: outset;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#Gallery{
+    width: 870px;
+    height: 800px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 250px 250px 250px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    padding-bottom: 20px;
+  }
+
+  #Gallery img{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  #Ga{
+    text-align: center;
+  }
