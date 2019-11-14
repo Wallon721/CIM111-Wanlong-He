@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>How to page</title>
+
+
+    <style media="screen">
+      .grid1{
+        display:grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 2fr;
+      }
+
+      body{
+        background-color: white;
+        background-image:url(pic/gan.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: 700px;
+      }
+
+      #title{
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <h1 id="title">How to behave like a legit UM student</h1>
+
+
+  <h1 id="step1toggle">Step 1</h1>
+
+  <section class="grid1" id="section1">
+    <h2>Buy/Own a U merch</h2>
+    <p>IF YOU DONT OWN A U MERCH U CAN"T SPELL C A N E S</p>
+
+
+  </section>
+
+    <h1 id="step2click">Step 2</h1>
+
+    <section class="grid1" id="section2">
+      <h2>Take a picture at the U statue</h2>
+      <p>Why are U here is U are not taking picture in front of the U?</p>
+
+  </section>
+
+  <h1 id="step3hoover">Step 3</h1>
+
+  <section class="grid1" id="section3">
+    <h2>Go to one home game and tailgate with friends</h2>
+    <p>The place where you drink and show and shout your U spirit</p>
+
+  </section>
+
+
+
+
+
+
+
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+
+  <script type="text/javascript">
+
+  $(document).ready(function(){
+
+    $("#section1").hide();
+
+    $("#step1toggle").click(function(){
+      $("#section1").slideToggle(1000)
+    });
+
+
+    $("#section2").hide();
+
+    $("#step2click").click(function(){
+      $("#section2").show()
+    });
+
+    $("#section3").hide();
+      $("#step3hoover").mouseenter(function(){
+        $("#section3").show()
+      });
+
+      $("#step3hoover").mouseleave(function(){
+        $("#section3").hide()
+      });
+
+
+  });
+
+  </script>
+
+
+
+
+
+
+  <body>
+
+  </body>
+</html>
