@@ -1,0 +1,342 @@
+/* Page 1 CSS */
+
+#menu{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 17px;
+}
+
+#div1{
+  background-color: black;
+}
+
+#div1 h1{
+  color: white;
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 50px;
+}
+
+#div1 img{
+  margin: 0 auto;
+  width: 280px;
+  display: block;
+}
+
+ #section1 p{
+  text-align:center;
+  color: white ;
+  font-family: 'Alatsi', sans-serif;
+}
+
+
+/* Page 2 CSS */
+
+#div2 h1{
+  text-align: center;
+  color: black;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+#sse img{
+  margin: 0 auto;
+  width: 280px;
+  display: block;
+}
+
+#main1{
+  background-color: black;
+  width: 960px;
+  height: 500px;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-width: 10px; /* add border on all sides */
+  border-style: groove;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section2_1{
+  width: 800px;
+  height: auto;
+  margin: 10px auto;
+  display: grid;
+  grid-template-rows: 270px;
+  grid-template-columns: 240px 240px 240px;
+  grid-column-gap: 50px;
+  padding-bottom: 100px;
+}
+
+#section2_1 img{
+  width: 260px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 10px;
+
+}
+
+
+#section2_2{
+  width: 800px;
+  height: auto;
+  margin: 10px auto;
+  display: grid;
+  grid-template-rows: 270px;
+  grid-template-columns: 800px;
+  grid-column-gap: 50px;
+}
+
+#section2_2 p{
+  color: white;
+  text-align: center;
+  font-family: 'Alatsi', sans-serif;
+  font-size: 15px;
+
+}
+
+
+#div2 a{
+  color: black;
+  text-decoration: none;
+  font-family: none;
+  font-size: 15px;
+  text-align: left;
+}
+
+#div2 a:hover{
+  background-color: black;
+  color: white;
+}
+
+
+img.center {
+  display: block;
+  margin: auto;
+}
+
+#ins{
+  color: black;
+  font-family: 'Alatsi', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* DIV 3 */
+
+#div3 h1{
+  text-align: center;
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+#Gallery{
+    width: 900px;
+    height: 800px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-rows: 175px 175px 175px ;
+    grid-template-columns: 175px 175px 175px 175px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    padding-bottom: 20px;
+  }
+
+  #Gallery img{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* DIV 4 */
+
+  #title4{
+    color: black;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+
+  #main2{
+    background-color: black;
+    width: 960px;
+    height: 560px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-width: 10px; /* add border on all sides */
+    border-style: groove;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  #section41{
+    width: 900px;
+    height: 100px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-rows: 15px 1px 15px ;
+    grid-template-columns: 300px 600px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding-bottom: 45px;
+  }
+
+  #section41 h1{
+    color: white;
+    text-align: center;
+    font-family: 'Alatsi', sans-serif;
+  }
+
+  #section41 p{
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+  }
+
+  #section41 ul{
+    color: white;
+    list-style: circle;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  #section42{
+    width: 900px;
+    height: 150px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-rows: 15px 1px 1px ;
+    grid-template-columns: 300px 600px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding-bottom: 45px;
+  }
+
+  #section42 h1{
+    color: white;
+    text-align: center;
+    font-family: 'Alatsi', sans-serif;
+  }
+
+  #section42 p{
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  #section42 ul{
+    color: white;
+    list-style: circle;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  #section43{
+    width: 900px;
+    height: 300px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-rows: 15px 1px 1px ;
+    grid-template-columns: 300px 600px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding-bottom: 45px;
+  }
+
+  #section43 h1{
+    color: white;
+    text-align: center;
+    font-family: 'Alatsi', sans-serif;
+  }
+
+  #section43 p{
+    color: white;
+    text-align: center;
+      font-family: 'Oswald', sans-serif;
+  }
+
+  #section43 ul{
+    color: white;
+    list-style: circle;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  /* DIV 5 */
+
+  #div5 h1{
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+
+  #div5 h2{
+    font-family: 'Oswald', sans-serif;
+  }
+
+  #name{
+    border:5px;
+    border-style: double;
+    border-color: grey;
+    width: 900px;
+    height: 40px;
+    color: white;
+    text-align: left;
+  }
+
+  #section51{
+    width: 900px;
+    height: 30px;
+    margin: 20px auto;
+    display: grid;
+    padding-bottom: 20px;
+  }
+
+  #email{
+    border:5px;
+    border-style: double;
+    border-color: grey;
+    width: 900px;
+    height: 40px;
+    color: white;
+    text-align: left;
+  }
+
+  #section52{
+    width: 900px;
+    height: 30px;
+    margin: 20px auto;
+    display: grid;
+    padding-bottom: 20px;
+  }
+
+  #message{
+    border:5px;
+    border-style: double;
+    border-color: grey;
+    width: 900px;
+    height: 300px;
+    color: white;
+    text-align: left;
+  }
+
+  #section53{
+    width: 900px;
+    height: 300px;
+    margin: 20px auto;
+    display: grid;
+    padding-bottom: 20px;
+  }
+
+  #div5 h3{
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+  }
